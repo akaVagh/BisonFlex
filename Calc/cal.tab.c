@@ -68,7 +68,7 @@
 /* Copy the first part of user declarations.  */
 
 /* Line 189 of yacc.c  */
-#line 1 "cal.y"
+#line 1 ".\\cal.y"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -115,7 +115,7 @@ typedef union YYSTYPE
 {
 
 /* Line 214 of yacc.c  */
-#line 11 "cal.y"
+#line 11 ".\\cal.y"
  float numbers; 
 
 
@@ -1323,70 +1323,70 @@ yyreduce:
         case 2:
 
 /* Line 1455 of yacc.c  */
-#line 14 "cal.y"
+#line 14 ".\\cal.y"
     { printf("Answer is %f\n", (yyvsp[(1) - (1)].numbers)); ;}
     break;
 
   case 3:
 
 /* Line 1455 of yacc.c  */
-#line 16 "cal.y"
+#line 16 ".\\cal.y"
     { (yyval.numbers) = (yyvsp[(1) - (3)].numbers) + (yyvsp[(3) - (3)].numbers); ;}
     break;
 
   case 4:
 
 /* Line 1455 of yacc.c  */
-#line 17 "cal.y"
+#line 17 ".\\cal.y"
     { (yyval.numbers) = (yyvsp[(1) - (3)].numbers) - (yyvsp[(3) - (3)].numbers); ;}
     break;
 
   case 5:
 
 /* Line 1455 of yacc.c  */
-#line 18 "cal.y"
+#line 18 ".\\cal.y"
     { (yyval.numbers) = (yyvsp[(1) - (1)].numbers); ;}
     break;
 
   case 6:
 
 /* Line 1455 of yacc.c  */
-#line 20 "cal.y"
+#line 20 ".\\cal.y"
     { (yyval.numbers) = (yyvsp[(1) - (3)].numbers) * (yyvsp[(3) - (3)].numbers); ;}
     break;
 
   case 7:
 
 /* Line 1455 of yacc.c  */
-#line 21 "cal.y"
+#line 21 ".\\cal.y"
     { (yyval.numbers) = (yyvsp[(1) - (3)].numbers) / (yyvsp[(3) - (3)].numbers); ;}
     break;
 
   case 8:
 
 /* Line 1455 of yacc.c  */
-#line 22 "cal.y"
+#line 22 ".\\cal.y"
     { (yyval.numbers) = (yyvsp[(1) - (1)].numbers); ;}
     break;
 
   case 9:
 
 /* Line 1455 of yacc.c  */
-#line 24 "cal.y"
+#line 24 ".\\cal.y"
     { (yyval.numbers) = (yyvsp[(1) - (1)].numbers); ;}
     break;
 
   case 10:
 
 /* Line 1455 of yacc.c  */
-#line 25 "cal.y"
+#line 25 ".\\cal.y"
     { (yyval.numbers) = -(yyvsp[(2) - (2)].numbers); ;}
     break;
 
   case 11:
 
 /* Line 1455 of yacc.c  */
-#line 26 "cal.y"
+#line 26 ".\\cal.y"
     { (yyval.numbers) = (yyvsp[(2) - (3)].numbers); ;}
     break;
 
@@ -1605,7 +1605,7 @@ yyreturn:
 
 
 /* Line 1675 of yacc.c  */
-#line 28 "cal.y"
+#line 28 ".\\cal.y"
 
 
 void yyerror(char *err) {

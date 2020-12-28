@@ -8,8 +8,8 @@
 
 %%
 
-[0-9]+(\.[0-9]+)?([eE][0-9]+)? { yylval.numbers = atof(yytext); return NUM;}
-[-+()*/] { return yytext[0]; }
-[ \t\f\v\n] { ; }
-
+[0-9]+(\.[0-9]+)?([eE][0-9]+)?  { yylval.numbers = atof(yytext); return NUM;}
+[-+()*/]                        { return yytext[0]; }
+[ \t\f\v\n]                     {  }
+.                               {}
 %%
